@@ -1,0 +1,37 @@
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      position: relative;
+}
+
+header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: relative;
+}
+
+ul{
+      list-style-type: none;
+      padding: 0;
+}
+
+.imageFilm{
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+}
+
+.adds{
+      position: absolute;
+      top: 90px;
+      right: 0;
+      left: 0;
+}
+
+.finalConsiderations{
+      text-align: center;
+}
