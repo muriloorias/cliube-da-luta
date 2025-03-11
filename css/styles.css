@@ -14,24 +14,45 @@ header {
       position: relative;
 }
 
-ul{
+ul {
       list-style-type: none;
       padding: 0;
 }
 
-.imageFilm{
+.films {
+      align-items: center;
+      text-align: center;
+}
+
+.item {
+      background-color: #ccc;
+      width: 400px;
+      height: 320px;
+      display: inline-block;
+      cursor: pointer;
+      margin: 10px;
+}
+
+.imageFilm {
       display: block;
       margin: 20px auto;
       text-align: center;
 }
 
-.adds{
+.adds {
       position: absolute;
       top: 90px;
       right: 0;
       left: 0;
 }
 
-.finalConsiderations{
+.finalConsiderations {
       text-align: center;
+      margin-top: 10px;
+}
+
+.comments {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 }
